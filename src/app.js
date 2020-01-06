@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import RaffleApp from "./components/RaffleApp";
 
-const templete = <h1>Hello World</h1>;
-
-ReactDOM.render(templete, document.getElementById("root"));
+ReactDOM.render(<RaffleApp />, document.getElementById("root"));
