@@ -1,10 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
 const RaffleAction = props => {
   return (
     <div>
-      <button>Draw</button>
+      <button onClick={props.raffle}>Draw</button>
     </div>
   );
 };
