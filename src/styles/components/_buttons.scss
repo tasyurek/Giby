@@ -1,0 +1,67 @@
+.button {
+  border: none;
+  background: $purple;
+  border-bottom: 0.3rem solid darken($purple, $amount: 10);
+  border-radius: 0.4rem;
+  color: white;
+  outline: none;
+  padding: $s-size $m-size;
+}
+
+.button:hover {
+  background: lighten($purple, $amount: 5);
+}
+
+.button:active {
+  background: darken($purple, $amount: 5);
+}
+
+.button--text {
+  background: none;
+  border: none;
+  color: $off-white;
+  padding: 0;
+}
+
+.button--text:hover {
+  color: white;
+  background: none;
+}
+
+.big-button {
+  background: $red;
+  border-bottom: 0.5rem solid darken($red, $amount: 10);
+
+  color: white;
+  font-weight: 800;
+  padding: $s-size;
+  width: 48%;
+}
+
+.big-button--reset {
+  background: $red;
+  border-bottom: 0.5rem solid darken($red, $amount: 15);
+}
+
+.big-button--reset:hover {
+  background: lighten($red, $amount: 5);
+}
+
+.big-button--reset:active {
+  background: darken($red, $amount: 5);
+}
+
+.big-button--draw {
+  background: $purple;
+  border-bottom: 0.5rem solid darken($purple, $amount: 15);
+}
+
+.big-button--draw:active {
+  background: darken($purple, $amount: 5);
+}
+
+.big-button--draw:disabled {
+  background: darken($purple, $amount: 5);
+  border-bottom: none;
+  color: rgb(175, 162, 162);
+}

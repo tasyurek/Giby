@@ -1,0 +1,12 @@
+.icon {
+  fill: $off-white;
+  height: $m-size;
+  width: $m-size;
+}
+
+.icon:hover {
+  fill: lighten($off-white, $amount: 10);
+}
+
+.icon--delete {
+}

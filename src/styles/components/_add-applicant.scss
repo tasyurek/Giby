@@ -1,0 +1,37 @@
+.add-applicant {
+  border-top: 1px solid lighten($off-blue, $amount: 20);
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: $m-size;
+}
+
+.add-applicant__input {
+  background: lighten($off-blue, $amount: 2);
+  border: none;
+  border-radius: 0.4rem;
+  color: $off-white;
+  flex-grow: 1;
+  outline-color: $off-white;
+  padding: $s-size;
+  //margin-right: $m-size;
+  margin-bottom: $m-size;
+}
+
+.add-applicant-error {
+  margin: 0;
+  text-align: center;
+  padding: $m-size 0 $l-size 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .add-applicant {
+    flex-direction: row;
+  }
+  .add-applicant__input {
+    margin: 0;
+    margin-bottom: 0;
+    margin-right: $m-size;
+  }
+}
